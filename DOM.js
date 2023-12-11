@@ -16,8 +16,7 @@ let sectioncomesAftercurrent = Current.nextElementSibling
 let sectionBeforethecurrent = Current.previousElementSibling.firstElementChild
 
   // Get the div that contains the section that has an h2 with a class of 'highlight'
-//let  div = document.querySelector('div section h2.highlight').parentElement.parentElement
-let div = document.querySelector('div')
+let  div = document.querySelector('div section h2.highlight').parentElement.parentElement
 
   // Get all the section that contain an H2 (using a single statement)
 let sectionwithH2 = document.querySelectorAll('section h2')
